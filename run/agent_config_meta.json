@@ -1,5 +1,17 @@
 {
   "keys": "C:\\Users\\roy\\Desktop\\egg-test\\config\\config.default.js",
+  "mongoose": {
+    "client": {
+      "url": "C:\\Users\\roy\\Desktop\\egg-test\\config\\config.default.js",
+      "options": "C:\\Users\\roy\\Desktop\\egg-test\\config\\config.default.js"
+    },
+    "url": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "options": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "plugins": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "loadModel": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "app": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "agent": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-mongoose\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-session\\config\\config.default.js",
     "key": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-session\\config\\config.default.js",
@@ -145,6 +157,13 @@
     "defaultViewEngine": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-view\\config\\config.default.js",
     "mapping": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-view\\config\\config.default.js"
   },
+  "nunjucks": {
+    "autoescape": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
   "env": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg\\config\\config.default.js",
   "name": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg\\config\\config.default.js",
   "cookies": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg\\config\\config.default.js",
@@ -175,7 +194,10 @@
     },
     "homepage": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg\\config\\config.default.js"
+      "egg": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "egg-mongoose": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "moment": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg\\config\\config.default.js"

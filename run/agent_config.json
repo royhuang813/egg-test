@@ -149,6 +149,25 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
+    },
+    "mongoose": {
+      "url": "",
+      "options": {},
+      "plugins": [],
+      "loadModel": true,
+      "app": true,
+      "agent": false,
+      "client": {
+        "url": "mongodb://127.0.0.1/school",
+        "options": {}
+      }
+    },
     "env": "local",
     "name": "egg-test",
     "keys": "<String len: 4>",
@@ -182,7 +201,10 @@
       },
       "homepage": "https://github.com/royhuang813/egg-test#readme",
       "dependencies": {
-        "egg": "^2.29.1"
+        "egg": "^2.29.1",
+        "egg-mongoose": "^3.3.1",
+        "egg-view-nunjucks": "^2.2.0",
+        "moment": "^2.29.1"
       },
       "devDependencies": {
         "egg-bin": "^4.15.0"
@@ -435,6 +457,31 @@
       "from": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-view",
       "version": "2.1.3"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\roy\\Desktop\\egg-test\\config\\plugin.js",
+      "path": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-view-nunjucks",
+      "version": "2.2.0"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\roy\\Desktop\\egg-test\\config\\plugin.js",
+      "path": "C:\\Users\\roy\\Desktop\\egg-test\\node_modules\\egg-mongoose",
+      "version": "3.3.1"
     }
   }
 }
