@@ -1,0 +1,29 @@
+{
+  "name": "egg-test",
+  "version": "1.0.0",
+  "description": "learn eggjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royhuang813/egg-test.git"
+  },
+  "keywords": [
+    "eggjs"
+  ],
+  "author": "royhuang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royhuang813/egg-test/issues"
+  },
+  "homepage": "https://github.com/royhuang813/egg-test#readme",
+  "dependencies": {
+    "egg": "^2.29.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0"
+  }
+}
